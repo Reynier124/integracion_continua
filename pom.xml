@@ -633,7 +633,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>ingenierasoftware:latest</image>
+                            <image>reynier124/integracion_continua:latest</image>
                             <tags>
                              <tag>${project.version}</tag>
                              <tag>latest</tag>
