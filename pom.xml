@@ -639,8 +639,8 @@
                              <tag>latest</tag>
                             </tags>
                             <auth>
-                            <username>$reynier124</username>
-                            <password>$env.DOCKER_TOKEN</password>
+                            <username>${env.DOCKER_REGISTRY_USER}</username>
+                            <password>${env.DOCKER_REGISTRY_PWD}</password>
                             </auth>
                         </to>
                         <container>
